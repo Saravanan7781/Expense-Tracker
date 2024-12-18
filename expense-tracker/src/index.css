@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* background-color: rgb(202, 230, 255); */
+}
+
+.App{
+  height: 100vh;
+  /* border: 1px solid brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expenseForm{
+  height: 80vh;
+  border: 3px solid black;
+  width: 97%;
+  border-radius: 3ch;
+}
+
+.wholeContainer{
+  display: flex;
+  height: 100%;
+}
+
+.expenseform{
+  width: 50%;
+  /* background-color: red; */
+ 
+  /* border: 3px solid black; */
+}
+
+.bodyformouter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.bodyForm{
+  height: 70%;
+  width: 80%;
+  border: 3px solid black;
+  border-radius: 3ch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-20px);
+}
+
+.textExpense,.numberExpense,.dateExpense{
+  width: 14vw;
+  height: 3vh;
+}
+
+.textExpense:focus,.numberExpense:focus,.dateExpense:focus{
+  outline: none;
+}
+
+.expense-form-real{
+  margin: 10px;
+}
+.summaryList{
+  width: 50%;
+  /* background-color: pink; */
+}
+
+.expenseList{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 50%;
+  
+}
+
+.expense-list{
+  list-style-type: none;
+  height: 100%;
+  /* border: 2px solid firebrick; */
+}
+
+.point{
+  
+  margin-top: 20px;
+}
